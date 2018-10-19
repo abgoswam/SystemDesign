@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HeadFirst_Ch2.WeatherData">
+    <Position X="1.25" Y="2.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAgAAAIBAAABAAAAAAAAIACCAAAAAAAgAAA=</HashCode>
+      <FileName>WeatherData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="observers" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HeadFirst_Ch2.CurrentConditionsDisplay">
+    <Position X="6.25" Y="2.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCgAAAAAAAQAAAAAAAAQAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>CurrentConditionsDisplay.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_weatherData" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="HeadFirst_Ch2.ISubject" Collapsed="true">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAA=</HashCode>
+      <FileName>ISubject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HeadFirst_Ch2.IObserver" Collapsed="true">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISubject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HeadFirst_Ch2.IDisplayElement" Collapsed="true">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISubject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
