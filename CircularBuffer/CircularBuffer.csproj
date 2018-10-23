@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{80CCF008-CB5B-431B-969C-65A20A937BB3}</ProjectGuid>
+    <ProjectGuid>{3E51E56A-4894-4E6A-9F15-6E3102023E83}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HeadFirst_Ch2</RootNamespace>
-    <AssemblyName>HeadFirst_Ch2</AssemblyName>
+    <RootNamespace>CircularBuffer</RootNamespace>
+    <AssemblyName>CircularBuffer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CurrentConditionsDisplay.cs" />
+    <Compile Include="CircularBuffer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ISubject.cs" />
-    <Compile Include="WeatherData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadFirst_Ch3", "HeadFirst_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading", "Threading\Threading.csproj", "{6FC31BDC-C959-4E3F-A1D6-60AEA8BE39BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularBuffer", "CircularBuffer\CircularBuffer.csproj", "{3E51E56A-4894-4E6A-9F15-6E3102023E83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6FC31BDC-C959-4E3F-A1D6-60AEA8BE39BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FC31BDC-C959-4E3F-A1D6-60AEA8BE39BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FC31BDC-C959-4E3F-A1D6-60AEA8BE39BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E51E56A-4894-4E6A-9F15-6E3102023E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E51E56A-4894-4E6A-9F15-6E3102023E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E51E56A-4894-4E6A-9F15-6E3102023E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E51E56A-4894-4E6A-9F15-6E3102023E83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
