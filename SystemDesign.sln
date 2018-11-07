@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading", "Threading\Thre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularBuffer", "CircularBuffer\CircularBuffer.csproj", "{3E51E56A-4894-4E6A-9F15-6E3102023E83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularBuffer_2", "CircularBuffer_2\CircularBuffer_2.csproj", "{B8073B4C-F9F8-444D-9FC3-476045CC5F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Misc_1", "Misc_1\Misc_1.csproj", "{2C3FAFF4-DCB6-4438-8690-A95CA28869EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{3E51E56A-4894-4E6A-9F15-6E3102023E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E51E56A-4894-4E6A-9F15-6E3102023E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E51E56A-4894-4E6A-9F15-6E3102023E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8073B4C-F9F8-444D-9FC3-476045CC5F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8073B4C-F9F8-444D-9FC3-476045CC5F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8073B4C-F9F8-444D-9FC3-476045CC5F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8073B4C-F9F8-444D-9FC3-476045CC5F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3FAFF4-DCB6-4438-8690-A95CA28869EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3FAFF4-DCB6-4438-8690-A95CA28869EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3FAFF4-DCB6-4438-8690-A95CA28869EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3FAFF4-DCB6-4438-8690-A95CA28869EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

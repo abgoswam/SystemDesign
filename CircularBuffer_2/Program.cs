@@ -1,24 +1,18 @@
-﻿using CircularBuffer;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace DataStructures
+namespace CircularBuffer_2
 {
     class Program
     {
-        static void ConsoleWrite(double data)
-        {
-            Console.WriteLine(data);
-        }
-
         static void Main(string[] args)
         {
-            var buffer = new Buffer<double>();
+            var buffer = new CircularBuffer<double>(capacity: 3);
 
             ProcessInput(buffer);
-
-            //var p = new Printer<double>(ConsoleWrite);
-            buffer.Dump(ConsoleWrite);
- 
             ProcessBuffer(buffer);
         }
 

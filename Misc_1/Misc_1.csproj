@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3E51E56A-4894-4E6A-9F15-6E3102023E83}</ProjectGuid>
+    <ProjectGuid>{2C3FAFF4-DCB6-4438-8690-A95CA28869EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CircularBuffer</RootNamespace>
-    <AssemblyName>CircularBuffer</AssemblyName>
+    <RootNamespace>Misc_1</RootNamespace>
+    <AssemblyName>Misc_1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Buffer.cs" />
-    <Compile Include="BufferExtensions.cs" />
-    <Compile Include="CircularBuffer.cs" />
-    <Compile Include="IBuffer.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
