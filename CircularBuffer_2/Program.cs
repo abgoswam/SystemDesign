@@ -8,11 +8,26 @@ namespace CircularBuffer_2
 {
     class Program
     {
+        public static void ConsoleWrite(double data)
+        {
+            Console.WriteLine(data);
+        }
+
         static void Main(string[] args)
         {
-            var buffer = new CircularBuffer<double>(capacity: 3);
+            var buffer = new Buffer<double>();
 
             ProcessInput(buffer);
+
+            var asInt = buffer.AsEnumerableOf<double, int>();
+
+            //Printer console = x => Console.WriteLine(x);
+            //buffer.Display(console);
+            buffer.Display(x => Console.WriteLine(x));
+
+            //Printer<double> console = ConsoleWrite;
+            buffer.Display(ConsoleWrite);
+
             ProcessBuffer(buffer);
         }
 

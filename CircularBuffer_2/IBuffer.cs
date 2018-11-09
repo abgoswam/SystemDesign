@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CircularBuffer_2
 {
-    public interface IBuffer<T>
+    public interface IBuffer<T> : IEnumerable<T>
     {
         bool IsEmpty { get;  }
         void Write(T value);

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Misc_1
 {
-    class Program
+    class Func
     {
-        //static void Main(string[] args)
-        //{
-        //}
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Abhishek");
+        }
     }
 }
