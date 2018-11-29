@@ -8,9 +8,9 @@ namespace Misc_1
 {
     class Func
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Abhishek");
-        }
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("Abhishek");
+        //}
     }
 }

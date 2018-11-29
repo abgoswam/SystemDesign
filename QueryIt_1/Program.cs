@@ -18,7 +18,14 @@ namespace QueryIt_1
             {
                 AddEmployees(employeeRepository);
                 CountEmployees(employeeRepository);
+                QueryEmployee(employeeRepository);
             }
+        }
+
+        private static void QueryEmployee(IRepository<Employee> employeeRepository)
+        {
+            var employee = employeeRepository.FindById(1);
+            Console.WriteLine(employee.Name);
         }
 
         private static void CountEmployees(IRepository<Employee> employeeRepository)
